@@ -9,6 +9,8 @@ import javax.swing.JPanel;
 public class login extends javax.swing.JFrame {
     Image img = Toolkit.getDefaultToolkit().getImage("page.png");
     JLabel label;
+
+    JOptionPanel optionPanel;
     public login() throws IOException {
         this.setContentPane(new JPanel() {
             @Override
